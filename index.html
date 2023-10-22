@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <h1>CRUD System</h1>
+        
+        <div>
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="description" placeholder="Description">
+            <button id="createBtn">Create</button>
+        </div>
+        
+        <h2>Items</h2>
+        <ul id="itemsList">
+            <!-- Tutaj będą wyświetlane elementy -->
+        </ul>
+
+        <h2>Archived Items</h2>
+        <ul id="archivedList">
+            <!-- Tutaj będą wyświetlane zarchiwizowane elementy -->
+        </ul>
+
+        <div>
+            <input type="text" id="searchQuery" placeholder="Search...">
+            <button id="searchBtn">Search</button>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
